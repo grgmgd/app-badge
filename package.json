@@ -1,0 +1,19 @@
+{
+  "name": "@grgmgd/app-badge",
+  "version": "1.0.0",
+  "description": "Easily add shields and badges to your app icons",
+  "main": "lib/index.js",
+  "repository": "git@github.com:grgmgd/app-badge.git",
+  "author": "George <geo.morice@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "app-badge": "lib/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "chalk": "^4.1.2",
+    "commander": "^8.3.0",
+    "glob": "^7.2.0",
+    "sharp": "^0.29.3"
+  }
+}
